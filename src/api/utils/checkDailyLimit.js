@@ -1,7 +1,7 @@
 const { Op } = require("sequelize");
 const Transaction = require("../models/Transaction");
 
-const DAILY_LIMIT = 100000;
+const DAILY_LIMIT = 10000;
 
 const checkDailyLimit = async (walletId, amount) => {
     const today = new Date();
