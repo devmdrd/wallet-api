@@ -31,12 +31,14 @@ npm install
 
 ## Environment Variables
 
+```
 PORT=5000
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=root
 DB_NAME=wallet_db
 JWT_SECRET=wallet_app_secret_key
+```
 
 ## Run
 
